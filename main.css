@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: rgb(47, 47, 47);
+}
+.content {
+    width: 300px;
+}
+h1 {
+    text-align: center;
+    font-family: Rubik Scribble;
+    color: #45a049;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+label {
+    font-size: 2em;
+    font-family: Rubik Scribble;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.answer {
+    display: none;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.correct {
+    color: #4caf50;
+    border-top: 2px solid #4caf50;
+}
+
+.incorrect {
+    color: #f44336;
+    border-top: 2px solid #f44336;
+}
+h2 {
+    text-align: center;
+}

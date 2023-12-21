@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <h1>Так що ж це за спорт такий?</h1>
+        <form id="перевірка-слова-форма">
+            <label for="слово">Введіть слово:</label>
+            <input type="text" id="word" name="слово" required>
+            <button type="button" onclick="перевіритиСлово()">Перевірити</button>
+        </form>
+        <div class="answer" id="answer">
+            <h2 id="answer_h2"></h2>
+        </div>
+    </div>
+</body>
+</html>
